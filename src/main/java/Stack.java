@@ -11,6 +11,14 @@ public class Stack<K> {
 		linkedlist.add(value);
 	}
 	
+	public Node<K> peek() {
+		return linkedlist.head;
+	}
+	
+	public Node<K> pop() {
+		return linkedlist.pop();
+	}
+	
 	public void printStack() {
 		linkedlist.printNodes();
 	}
