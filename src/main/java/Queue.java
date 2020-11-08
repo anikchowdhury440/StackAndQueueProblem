@@ -11,6 +11,10 @@ public class Queue<K> {
 		linkedlist.append(value);
 	}
 	
+	public Node<K> deQueue() {
+		return linkedlist.pop();
+	}
+	
 	public void printStack() {
 		linkedlist.printNodes();
 	}
